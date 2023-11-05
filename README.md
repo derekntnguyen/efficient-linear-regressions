@@ -17,7 +17,7 @@ The results of this project are as follows:
 
 For 10,000 regressions:
 
-```
+``` shell
 Matrix time taken: 0.12400126457214355 seconds
 Results using NumPy and linear algebra:
 [[0.19120998]
