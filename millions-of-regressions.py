@@ -12,7 +12,7 @@ y = np.random.rand(num_samples)
 # Perform linear regressions using matrix stacking
 start_time = time.time()
 
-num_regressions = 1000
+num_regressions = 10000
 X_stacked = np.tile(X, (num_regressions, 1, 1))
 print(X_stacked.shape)
 y_stacked = np.tile(y, (num_regressions, 1))
