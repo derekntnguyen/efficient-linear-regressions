@@ -14,3 +14,29 @@ The results of this project are as follows:
 
 1. We can reduce the time to calculate multiple linear regressions by using linear algebra.
 2. There is a memory tradeoff when using linear algebra.
+
+For 10,000 regressions:
+
+```
+Matrix time taken: 0.12400126457214355 seconds
+Results using NumPy and linear algebra:
+[[0.19120998]
+ [0.44038821]
+ [0.49703976]]
+
+OLS time taken: 1.3910667896270752 seconds
+Results using statsmodels:
+[0.19120998 0.44038821 0.49703976]
+
+Speed improvement: 11.218166156827834xMatrix time taken: 0.013000011444091797 seconds
+Results using NumPy and linear algebra:
+[[0.33865288]
+ [0.6547036 ]
+ [0.53215401]]
+
+OLS time taken: 0.15204071998596191 seconds
+Results using statsmodels:
+[0.33865288 0.6547036  0.53215401]
+
+Speed improvement: 11.69542970326083x
+```
