@@ -15,7 +15,7 @@ The results of this project are as follows:
 1. We can reduce the time to calculate multiple linear regressions by using linear algebra.
 2. There is a memory tradeoff when using linear algebra.
 
-For 10,000 regressions:
+For 100,000 regressions:
 
 ``` shell
 Matrix time taken: 1.1845676898956299 seconds
