@@ -30,3 +30,6 @@ Results using statsmodels:
 
 Speed improvement: 11.892153206330281x
 ```
+
+## Next Steps
+Implement a version in rust for an additional comparison
